@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 5000
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 10000
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 12500
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 15000
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 17500
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G1_cellranger_count_downsampled.sh 20000
+
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 5000
+#sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 10000
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 12500
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 15000
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 17500
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/G2_cellranger_count_downsampled.sh 20000
+
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 5000
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 10000
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 12500
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 15000
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 17500
+sbatch scripts/multiome_ES_G1_G2_S/cellranger_downsampled/helper/S_cellranger_count_downsampled.sh 20000
+
+
+

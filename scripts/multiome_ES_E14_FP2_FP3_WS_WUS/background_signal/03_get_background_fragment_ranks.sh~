@@ -1,0 +1,22 @@
+#!/bin/bash
+# This script runs bedtools intersect command on given bed (or bed-like) files
+# 1st argument - fragments .bed file
+# 2nd argument - replication ranks per bin .tsv file
+# 3rd argument - output/path.bed
+
+# Note: run after notebooks/replication_timing/02_get_replication_ranks_per_bin.ipynb
+
+FILE1=$1
+FILE2=$2
+OUT_PATH=$3
+
+
+# load modules
+module load BEDTools/2.30.0-GCC-12.2.0
+
+
+bedtools intersect -wo \
+    -a ${FILE1} \
+    -b ${FILE2} \
+    > ${OUT_PATH}
+
